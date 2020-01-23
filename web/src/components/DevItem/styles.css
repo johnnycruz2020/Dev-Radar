@@ -1,0 +1,87 @@
+li.dev-item {
+	background: #FFF;
+	box-shadow: 0 0 14px 0 rgba(0,0,0, 0.02);
+	border-radius: 2px;
+	padding: 20px;
+}
+
+li.dev-item header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+li.dev-item header img {
+	width: 54px;
+	height: 54px;
+	border-radius: 50%;
+}
+
+li.dev-item header .user-info {
+	margin-left: 10px;
+}
+
+.user-info strong {
+	display: block;
+	font-size: 16px;
+	color: #333;
+}
+
+.user-info span {
+	font-size: 13px;
+	color: #999;
+	margin-top: 2px;
+}
+
+li.dev-item p {
+	color: #666;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 10px 0;
+}
+
+li.dev-item a {
+	color: #8e4dff;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+li.dev-item a:hover {
+	color: #5a2ea6;
+}
+
+li.dev-item .user-remove {
+	float: right;
+	margin: -14px -11px;
+}
+
+li.dev-item .user-remove button {
+	font-size: 20px;
+	font-weight: bold;
+	color: #8e4dff;
+	background: #FFF;
+	border: 0;
+	cursor: pointer;
+}
+
+li.dev-item .user-remove button:hover {
+	color: #5a2ea6;
+}
+
+li.dev-item .user-edit button {
+	width: 100%;
+	border: 0;
+	margin-top: 20px;
+	background: #7d40e7;
+	border-radius: 2px;
+	padding: 5px 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+	cursor: pointer;
+	transition: background 0.5s;
+}
+
+li.dev-item .user-edit button:hover {
+	background-color: #5a2ea6;
+}
